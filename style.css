@@ -2,10 +2,13 @@
     width: 700px;
     height: 900px;
     margin: 70px auto;
+    display:flex;
+    flex-direction: column;
 }
 
 .Top {
     background-color: antiquewhite;
+    padding: 10px 10px;
 }
 
 .Top > h1 {
@@ -13,22 +16,19 @@
 }
 
 .edu {
-    border-style: dotted;
-    border-color:lightgoldenrodyellow;
+    border: dotted lightgoldenrodyellow;
     background-color: lightgoldenrodyellow;
     margin: 5px;
 }
 
 .prof {
-    border-style: dotted;
-    border-color:lightgoldenrodyellow;
+    border: dotted lightgoldenrodyellow;
     background-color: lightblue;
     margin: 5px;
 }
 
 .tech {
-    border-style: dotted;
-    border-color:lightgoldenrodyellow;
+    border: dotted lightgoldenrodyellow;
     background-color: lightgrey;
     margin: 5px;
 }
