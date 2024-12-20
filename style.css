@@ -8,7 +8,8 @@
 
 .Top {
     background-color: antiquewhite;
-    padding: 10px 10px;
+    background-clip: content-box;
+    padding: 5px 5px;
 }
 
 .Top > h1 {
@@ -33,8 +34,9 @@
     margin: 5px;
 }
 
-h1 {
+.Bottom h1 {
     background-color: antiquewhite;
+    border-bottom: solid;
 }
 
 h2 {
