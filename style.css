@@ -1,0 +1,46 @@
+.Body {
+    width: 700px;
+    height: 900px;
+    margin: 70px auto;
+}
+
+.Top {
+    background-color: antiquewhite;
+}
+
+.Top > h1 {
+    font-size: 24px;
+}
+
+.edu {
+    border-style: dotted;
+    border-color:lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
+    margin: 5px;
+}
+
+.prof {
+    border-style: dotted;
+    border-color:lightgoldenrodyellow;
+    background-color: lightblue;
+    margin: 5px;
+}
+
+.tech {
+    border-style: dotted;
+    border-color:lightgoldenrodyellow;
+    background-color: lightgrey;
+    margin: 5px;
+}
+
+h1 {
+    background-color: antiquewhite;
+}
+
+h2 {
+    background-color: aquamarine;
+}
+
+.prof > ul {
+    font-size: 13px;
+}
