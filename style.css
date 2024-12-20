@@ -10,6 +10,9 @@
     background-color: antiquewhite;
     background-clip: content-box;
     padding: 5px 5px;
+
+    display:grid;
+    grid-template-columns: 525px 175px;
 }
 
 .Top > h1 {
